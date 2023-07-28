@@ -19,7 +19,7 @@
 	        <link rel="canonical" href="https://eluander.com.br">
 
 		<!-- Title  -->
-		<title>Eluander J. F. Lopes</title>
+		<title id="person-nomecompleto">Eluander J. F. Lopes</title>
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" />
@@ -3069,8 +3069,15 @@
 			
 		</script>
 
-<!-- person js -->
-<script src="js/person.js"></script>
+<!-- person json -->
+<script src="js/person.json"></script>
+<script type="text/javascript">
+let currentPerson = null;
+	
+const nomeCompleto = document.getElementById("person-nomecompleto");
+nomeCompleto.appendChild("Eluander Josué Frigo lopes");
+	
+</script>
 	    
     </body>
 </html>
