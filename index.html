@@ -3073,6 +3073,12 @@
 <script src="js/person.json"></script>
 <script type="text/javascript">
 let currentPerson = null;
+
+$.getJSON('js/person.json', function(data) {
+    currentPerson = data;
+});
+
+debugger;
 	
 const nomeCompleto = document.getElementById("person-nomecompleto");
 nomeCompleto.appendChild("Eluander Josué Frigo lopes");
