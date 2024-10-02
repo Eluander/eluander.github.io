@@ -1,0 +1,265 @@
+{
+    "nome": "Eluander Josué Frigo Lopes",
+    "apelido": "Eluander",
+    "titulo": "Desenvolvedor Sênior",
+    "dataNascimento": "1994-01-18",
+    "nacionalidade": "Brasileiro",
+    "curiosidade": {
+        "anoComecouTrabalhar": 2011,
+        "anoComecouDev": 2013,
+        "xicarasCafeDia": 6,
+        "dataParouJava": "2020-08-01"
+    },
+    "contatos": [
+        {
+            "name": "site",
+            "value": "eluander.com.br",
+            "format": "https://eluander.com.br",
+            "link": "https://eluander.com.br"
+        },
+        {
+            "name": "email",
+            "value": "eluander@gmail.com",
+            "format": "",
+            "link": "mailto:eluander@gmail.com"
+        },
+        {
+            "name": "celular",
+            "value": "46999302905",
+            "format": "+55 (46) 99930-2905",
+            "link": "cel:46999302905"
+        },
+        {
+            "name": "whatsapp",
+            "value": "46999302905",
+            "format": "whatsapp://send?abid=46999302905&text=Oi",
+            "link": "https://wa.me/5546999302905?text=Oi%2C%20encontrei%20seu%20contato%20em%20seu%20site."
+        }
+    ],
+    "endereco": {
+        "cep": "85550-000",
+        "rua": "Rua Denir Framento",
+        "numero": "39",
+        "bairro": "Lisboa da Silva",
+        "complemento": "Casa",
+        "cidade": "Coronel Vivida",
+        "uf": "PR"
+    },
+    "atributos": [
+        {
+            "id": "dedicacao",
+            "name": "Dedicação",
+            "text": "O mercado esta se inovando com frequência, para atender e entregar melhores resultados estou focado em aprender e manter-me atualizado."
+        },
+        {
+            "id": "smartwork",
+            "name": "Smart Work",
+            "text": "Entender o negócio e as necessidades do cliente ou trabalho é fundamental para uma entrega otimizada."
+        },
+        {
+            "id": "colaboracao",
+            "name": "Colaboração",
+            "text": "A troca de conhecimento contribui para o crescimento e evolução de soluções."
+        },
+        {
+            "id": "conhecimento",
+            "name": "Conhecimento",
+            "text": "Experiência em todo processo de construção de aplicações web pequenas e robustas. Levantamento > Análise > Arquitetura > Desenvolvimento (Backend/Frontend) > Servidor > Manutenção."
+        }
+    ],
+    "social": [
+        {
+            "name": "facebook",
+            "value": "https://www.facebook.com/eluander"
+        },
+        {
+            "name": "instagram",
+            "value": "https://www.instagram.com/eluanderj"
+        },
+        {
+            "name": "linkedin",
+            "value": "https://www.linkedin.com/in/eluander"
+        },
+        {
+            "name": "github",
+            "value": "https://github.com/Eluander"
+        },
+        {
+            "name": "youtube",
+            "value": "https://www.youtube.com/channel/UCBVFOT9sP1DQ35jrUa_CCkA"
+        }
+    ],
+    "marketing": [
+        "Senior Developer from Brazil *",
+        "Aberto para novos projetos * Vamos trabalhar juntos *"
+    ],
+    "workers": [
+        {
+            "id": "bnb",
+            "nome": "Banco do Nordeste",
+            "funcao": "Desenvolvedor Sênior",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>C# · ASP.NET · .NET Core · MVC · DDD · Microsoft SQL Server · Desenvolvimento de software · ASP.NET MVC · CSS · Bootstrap · HTML5 · JQuery · JavaScript · Microsoft Visual Studio · NHibernate · PostgreSQL · SQL · Análise de dados · Análise de negócios</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/D4D0BAQG9G5IkrZiy-w/company-logo_100_100/company-logo_100_100/0/1701465311278?e=1735776000&v=beta&t=zpaBx-Se7HEJ_4Q4CAJQzPEjMVX-2UCAcgxNFo4M0i8",
+            "dataInicio": "nov de 2023",
+            "dataFim": "até o momento",
+            "duracao": "",
+            "url": "https://www.bnb.gov.br"
+        },
+        {
+            "id": "firjan",
+            "nome": "Firjan",
+            "funcao": "Desenvolvedor Sênior",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>vb · Microsoft SQL Server · DDD · ASP.NET · CSS · JQuery · C# · JavaScript · Microsoft Visual Studio · VB.NET · angular · SQL · HTML5</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/C4D0BAQFoaEsY0Xly3Q/company-logo_100_100/company-logo_100_100/0/1631360039768/firjan_logo?e=1735776000&v=beta&t=R03Fy8PEtTrle31dROnW_cFhe-PXmUhcYf8PcSG5mCU",
+            "dataInicio": "nov de 2022",
+            "dataFim": "out de 2023",
+            "duracao": "1 ano",
+            "url": "https://firjan.com.br/pagina-inicial.htm"
+        },
+        {
+            "id": "pulsati",
+            "nome": "Pulsati",
+            "funcao": "Desenvolvedor Sênior",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p></p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/D4D0BAQE6KsidO_Dmyg/company-logo_100_100/company-logo_100_100/0/1707835487486/pulsati_logo?e=1735776000&v=beta&t=v8mCVTfk9-p0I5QdWfg4DhtsneYKyQ5zAcRO2Ci5dI8",
+            "dataInicio": "abr de 2022",
+            "dataFim": "set de 2022",
+            "duracao": "6 meses",
+            "url": "https://pulsati.com.br/"
+        },
+        {
+            "id": "movidesk",
+            "nome": "Movidesk",
+            "funcao": "Desenvolvedor Sênior",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>Microsoft SQL Server · DDD · Desenvolvimento Sistemas Multi-Tenancy · CSS · JQuery · C# · JavaScript · HTML5 · ASP.NET MVC</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/D4D0BAQFfpJ7UipAWYA/company-logo_100_100/company-logo_100_100/0/1688416690300/movidesk_logo?e=1735776000&v=beta&t=1_xc5imdhAV0Nm-qKdoCrWGm79CT2fTKAEGXnNMhBos",
+            "dataInicio": "abr de 2022",
+            "dataFim": "set de 2022",
+            "duracao": "6 meses",
+            "url": "https://www.movidesk.com/"
+        },
+        {
+            "id": "sponte",
+            "nome": "Sponte",
+            "funcao": "Desenvolvedor Sênior",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>Microsoft SQL Server · CSS · JavaScript · VB.NET · HTML5 · ASP.NET MVC</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/D4D0BAQGF-hFTYIDPZw/company-logo_100_100/company-logo_100_100/0/1701880937506/sistemasponte_logo?e=1735776000&v=beta&t=_PVROeLGxNeXX1vsyGFsJ_Fm4TRG2604CCuoMaP-yss",
+            "dataInicio": "jan de 2021",
+            "dataFim": "abr de 2022",
+            "duracao": "1 ano 4 meses",
+            "url": "https://www.sponte.com.br/"
+        },
+        {
+            "id": "codengage",
+            "nome": "Codengage",
+            "funcao": "Desenvolvedor Pleno",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>.NET C# · PostgreSQL · DDD · CQRS · Docker · PostgresSQL · EF · Git · Microserviços · Clean Code.</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/C4D0BAQED5n9e3dyMXA/company-logo_100_100/company-logo_100_100/0/1658752820851/codengage_logo?e=1735776000&v=beta&t=ZZVk4HwHrEtdgXgYptrCSSR9MLBh54wLCnMszB-FRJQ",
+            "dataInicio": "out de 2020",
+            "dataFim": "abr de 2022",
+            "duracao": "1 ano 7 meses",
+            "url": "https://codengage.com/"
+        },
+        {
+            "id": "supera",
+            "nome": "Supera Sistemas",
+            "funcao": "Desenvolvedor Full Stack",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>.NET C# · MVC 5 · Razor · Core 3.1 · NHibernate · Javascript · PostgreSQL · Java · VB6 · VB.NET · SQL Server · CI/DI · GitLab · BitBucket · Xamarin · IONIC · Flutter · Swagger · Google Cloud · AWS · IIS.</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/C4E0BAQEHXdrRvW3veQ/company-logo_100_100/company-logo_100_100/0/1630611163148/supera_sistemas_logo?e=1735776000&v=beta&t=g0A_cEiT3-59riiWUb-3xpomdNkRst_Hi8b5SSSj8hk",
+            "dataInicio": "jan de 2017",
+            "dataFim": "ago de 2020",
+            "duracao": "3 anos 8 meses",
+            "url": "https://www.superasistemas.com.br/"
+        },
+        {
+            "id": "gnc",
+            "nome": "GNC Softwares (SESMO)",
+            "funcao": "Desenvolvedor Full Stack Junior",
+            "descricao": "<h6 class='mb-0 pr-15'>Competências:</h6><br /><p>.NET C# · MVC · NHibernate · Ext.js · Javascript · PostgreSQL · SQL Server.</p>",
+            "imagem": "https://media.licdn.com/dms/image/v2/C510BAQG_jQ6u8ZaHtA/company-logo_100_100/company-logo_100_100/0/1631345564572?e=1735776000&v=beta&t=9WjDfmftstf6UXbicKAP9UdcpstFoJL6AhbQ2jAwlUY",
+            "dataInicio": "jan de 2014",
+            "dataFim": "jan de 2017",
+            "duracao": "3 anos 1 mês",
+            "url": "https://sesmo.com.br/"
+        }
+    ],
+    "educacao": [
+        {
+            "id": 1,
+            "instituicao": "FADEP Faculdade de Pato Branco",
+            "descricao": "Análise e Desenvolvimento de Sistemas - Ensino Superior Completo"
+        },
+        {
+            "id": 2,
+            "instituicao": "Escola Estadual Padre José Scampini",
+            "descricao": "Ensino Médio"
+        },
+        {
+            "id": 3,
+            "instituicao": "Escola Estadual Professora Delmira Ramos dos Santos",
+            "descricao": "Ensino Fundamental"
+        }
+    ],
+    "certificados": [
+        {
+            "id": 1,
+            "descricao": "C# - Blindando e Validando Projeto com Nottification Pattern",
+            "imagem": "https://media.licdn.com/dms/image/v2/D4E2DAQELyRwcMUs6eg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1697637870291?e=1728097200&v=beta&t=8m4jSaTVbUEil5XvabAqaRMq6JQ4h8gpYPz1_uWbDHc",
+            "emissora": "UDEMY"
+        },
+        {
+            "id": 2,
+            "descricao": "Dominando Linq e Lambda Expressions com C#",
+            "imagem": "https://media.licdn.com/dms/image/v2/D4E2DAQE4XeIgNch0Og/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1697638081201?e=1728097200&v=beta&t=Lw6nXJrMF3lOd3MKeGu_KEmITrk6zuCFjLujNErYYlw",
+            "emissora": "UDEMY"
+        },
+        {
+            "id": 3,
+            "descricao": "2021 Information Security and Data Privacy Training",
+            "imagem": "",
+            "emissora": "PEARSON"
+        },
+        {
+            "id": 4,
+            "descricao": "Criando um App com React, Typescript, Hooks, Context e Forms",
+            "imagem": "",
+            "emissora": "BALTA.IO"
+        },
+        {
+            "id": 5,
+            "descricao": "Modelando Domínios Ricos",
+            "imagem": "",
+            "emissora": "BALTA.IO"
+        },
+        {
+            "id": 6,
+            "descricao": "Começando com Angular",
+            "imagem": "",
+            "emissora": "BALTA.IO"
+        },
+        {
+            "id": 7,
+            "descricao": "Criando Primeiro App com Flutter",
+            "imagem": "",
+            "emissora": "BALTA.IO"
+        },
+        {
+            "id": 8,
+            "descricao": "Introdução ao ASP.NET Core Identity",
+            "imagem": "",
+            "emissora": "BALTA.IO"
+        },
+        {
+            "id": 9,
+            "descricao": "Iniciando com AspNet Core",
+            "imagem": "",
+            "emissora": "EDUARDO PIRES"
+        },
+        {
+            "id": 10,
+            "descricao": "Apps com Ionic 3 e Apis em Asp.Net Core usando DDD",
+            "imagem": "",
+            "emissora": "UDEMY"
+        }
+    ]
+}
