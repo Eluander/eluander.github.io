@@ -99,7 +99,7 @@ fetch('person.json')
         queryPersonEnderecoUF.forEach(element => { element.append(person.endereco.uf); });
 
         person.workers.forEach(element => {
-            
+            debugger;
             let querySeletorFuncao = document.querySelectorAll(`[data-person-work-${element.id}-funcao]`);
             let querySeletorNome = document.querySelectorAll(`[data-person-work-${element.id}-nome]`);
             let querySeletorDescricao = document.querySelectorAll(`[data-person-work-${element.id}-descricao]`);
