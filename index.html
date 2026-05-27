@@ -1,12 +1,12 @@
 <!doctype html>
-<html class="no-js" lang="pt-BR">
+<html lang="pt-BR">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Eluander J. F. Lopes - Senior Developer .NET</title>
     
-    <meta name="description" content="">
+    <meta name="description" content="Eluander J. F. Lopes - Desenvolvedor Sênior .NET com mais de 10 anos de experiência em sistemas web, arquitetura de software, AWS e Docker.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Eluander J. F. Lopes" />
     
@@ -27,6 +27,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="images/slider/person.png" fetchpriority="high">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,9 +40,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/meanmenu.css">
@@ -47,14 +48,25 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://eluander.com.br">
+    <link rel="preconnect" href="https://tile.openstreetmap.org">
+
     <!-- Social Meta -->
     <meta property="og:locale" content="pt-BR" />
     <meta property="og:type" content="article" />
 	<meta property="og:title" content="Eluander J. F. Lopes" />
 	<meta property="og:description" content="Desenvolvedor .NET" />
 	<meta property="og:url" content="https://eluander.com.br" />
-	<meta property="og:site-name" content="Eluander J. F. Lopes" />
+	<meta property="og:site_name" content="Eluander J. F. Lopes" />
 	<meta property="og:image" content="https://eluander.com.br/images/logo/eluander-logo-dark-full-v2.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eluander J. F. Lopes - Senior Developer .NET">
+    <meta name="twitter:description" content="Desenvolvedor Sênior .NET com mais de 10 anos de experiência em sistemas web, arquitetura de software, AWS e Docker.">
+    <meta name="twitter:image" content="https://eluander.com.br/images/logo/eluander-logo-dark-full-v2.png">
 </head>
 
 <body class="body-midnight-blue position-relative">
@@ -142,7 +154,7 @@
 
     <!-- side-mobile-menu start -->
     <div class="side-mobile-menu pt-15 pb-30 pl-30 pr-20 pb-100">
-        <div class="d-fle justify-content-between w-100">
+        <div class="d-flex justify-content-between w-100">
             <div class="close-icon d-inline-block float-right clear-both mt-20 mb-15">
                 <a href="javascript:void(0);"><span class="icon-clear theme-color"><i
                             class="fa fa-times"></i></span></a>
@@ -185,13 +197,13 @@
 
                 <div id="scene" class="parallax position-absolute w-100 h-100 z-index1">
                     <img data-depth="0.20" class="hero-shape hero-shape1 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape1.png" alt="#"><!-- /hero-shape1 -->
+                        src="images/shape/shape1.png" alt=""><!-- /hero-shape1 -->
                     <img data-depth="0.15" class="hero-shape hero-shape2 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape2.png" alt="#"><!-- /hero-shape2 -->
+                        src="images/shape/shape2.png" alt=""><!-- /hero-shape2 -->
                     <img data-depth="0.30" class="hero-shape hero-shape3 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape3.png" alt="#"><!-- /hero-shape3 -->
+                        src="images/shape/shape3.png" alt=""><!-- /hero-shape3 -->
                     <img data-depth="0.10" class="hero-shape hero-shape4 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape4.png" alt="#"><!-- /hero-shape4 -->
+                        src="images/shape/shape4.png" alt=""><!-- /hero-shape4 -->
                 </div><!-- /parallax -->
 
                 <div class="container slider-height d-flex align-items-end">
@@ -215,7 +227,7 @@
                                                 class="cursor theme-color d-inline-block" data-owner="main"></span>
                                         </span>
                                     </h2>
-                                    <a href="#" target="_blank"
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
                                         class="btn position-relative over-hidden btn-success text-uppercase transition5" data-person-whatsapp>
                                         <span class="d-inline-block">
                                             <i class="ico-whatsapp"></i> Whatsapp
@@ -227,7 +239,7 @@
                         <div
                             class="col-xl-7 col-lg-6 col-md-7 col-sm-10 col-12 d-flex justify-content-center align-items-end h-100">
                             <div class="slider-img pl-120 position-relative z-index1">
-                                <img src="images/slider/person.png" alt="hero image">
+                                <img src="images/slider/person.png" alt="hero image" fetchpriority="high">
                             </div><!-- /slider-img -->
                         </div><!-- /col -->
 
@@ -352,7 +364,7 @@
                                     data-aos-duration="2000" data-aos-delay="100">
                                     <div class="about-img-over pl-50 transition5 d-inline-block position-relative">
                                         <div class="position-relative z-index11" data-tilt data-tilt-max="10">
-                                            <img class="border-radius13 position-relative z-index11"
+                                            <img loading="lazy" class="border-radius13 position-relative z-index11"
                                                 src="images/about/about-img.jpg" alt="about image 1">
                                         </div>
 
@@ -361,7 +373,7 @@
                                         <div class="about-shape2 position-absolute z-index11" data-aos="fade-right"
                                             data-aos-duration="2000" data-aos-delay="800"></div><!-- /about-shape2 -->
                                         <div class="about-download-wrapper position-absolute z-index11">
-                                            <img class="download-bg rotate-animation d-inline-block"
+                                            <img loading="lazy" class="download-bg rotate-animation d-inline-block"
                                                 src="images/about/download-bg.png" alt="about image 2">
                                             <a href="/data/CV.pdf" download="Eluander-CV.pdf" class="cv-download-link transition5">
                                                 <img class="d-icon d-inline-block position-absolute"
@@ -488,7 +500,7 @@
                                 </div><!-- /col -->
                                 <div
                                     class="col-xl-5  col-lg-5 col-md-6  col-sm- col- d-flex justify-content-end align-items-center">
-                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                         src="images/portfolio/port-img1.jpg" style="max-width: 150px;" data-person-work-bnb-imagem alt="portfolio image 1">
                                     <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                         data-target="#exampleModal-p1">
@@ -511,7 +523,7 @@
                                 </div><!-- /col -->
                                 <div
                                     class="col-xl-5  col-lg-5 col-md-6  col-sm- col- d-flex justify-content-end align-items-center">
-                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                         src="images/portfolio/port-img2.jpg" style="max-width: 150px;" data-person-work-firjan-imagem alt="portfolio image2">
                                     <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                         data-target="#exampleModal-p2">
@@ -534,7 +546,7 @@
                                 </div><!-- /col -->
                                 <div
                                     class="col-xl-5 col-lg-5 col-md-6  col-sm- col- d-flex justify-content-end align-items-center">
-                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                         src="images/portfolio/port-img3.jpg" style="max-width: 150px;" data-person-work-pulsati-imagem alt="portfolio image 3">
                                     <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                         data-target="#exampleModal-p3">
@@ -558,7 +570,7 @@
                                 </div><!-- /col -->
                                 <div
                                     class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
-                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                         src="images/portfolio/port-img4.jpg" style="max-width: 150px;" data-person-work-movidesk-imagem alt="portfolio image 4">
                                     <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                         data-target="#exampleModal-p4">
@@ -582,7 +594,7 @@
                                 </div><!-- /col -->
                                 <div
                                     class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
-                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                         src="images/portfolio/port-img4.jpg" style="max-width: 150px;" data-person-work-sponte-imagem alt="portfolio image 4">
                                     <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                         data-target="#exampleModal-p5">
@@ -606,7 +618,7 @@
                                 </div><!-- /col -->
                                 <div
                                     class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
-                                    <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                         src="images/portfolio/port-img4.jpg" style="max-width: 150px;" data-person-work-codengage-imagem alt="portfolio image 6">
                                     <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                         data-target="#exampleModal-p6">
@@ -630,7 +642,7 @@
                             </div><!-- /col -->
                             <div
                                 class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
-                                <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                     src="images/portfolio/port-img4.jpg" style="max-width: 150px;" data-person-work-supera-imagem alt="portfolio image 6">
                                 <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                     data-target="#exampleModal-p7">
@@ -654,7 +666,7 @@
                             </div><!-- /col -->
                             <div
                                 class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
-                                <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                <img loading="lazy" class="port-img position-absolute left-0 ml-xl-3 transition5"
                                     src="images/portfolio/port-img4.jpg" style="max-width: 150px;" data-person-work-gnc-imagem alt="portfolio image 6">
                                 <div class="port-content text-center transition5 z-index11" data-toggle="modal"
                                     data-target="#exampleModal-p8">
@@ -682,7 +694,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" data-person-work-bnb-imagem style="max-width: 250px;" src="images/portfolio/port-img1-large.jpg"
+                                            <img loading="lazy" class="w-100" data-person-work-bnb-imagem style="max-width: 250px;" src="images/portfolio/port-img1-large.jpg"
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -711,8 +723,8 @@
                     <!-- Modal end -->
 
                     <!-- Modal2 start -->
-                    <div class="modal fade" id="exampleModal-p2" tabindex="-2" role="dialog"
-                        aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal fade" id="exampleModal-p2" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-p2" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="close-icon float-right pt-10 pr-10">
@@ -724,7 +736,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img2-large.jpg" style="max-width: 250px;" data-person-work-firjan-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img2-large.jpg" style="max-width: 250px;" data-person-work-firjan-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -753,8 +765,8 @@
                     <!-- Modal end -->
 
                     <!-- Modal3 start -->
-                    <div class="modal fade" id="exampleModal-p3" tabindex="-3" role="dialog"
-                        aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal fade" id="exampleModal-p3" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-p3" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="close-icon float-right pt-10 pr-10">
@@ -766,7 +778,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img3-large.jpg" style="max-width: 250px;" data-person-work-pulsati-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img3-large.jpg" style="max-width: 250px;" data-person-work-pulsati-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -795,8 +807,8 @@
                     <!-- Modal end -->
 
                     <!-- Modal4 start -->
-                    <div class="modal fade" id="exampleModal-p4" tabindex="-4" role="dialog"
-                        aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal fade" id="exampleModal-p4" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-p4" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="close-icon float-right pt-10 pr-10">
@@ -808,7 +820,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-movidesk-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-movidesk-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -836,8 +848,8 @@
                     </div>
                     <!-- Modal end -->
 
-                    <!-- Modal4 start -->
-                    <div class="modal fade" id="exampleModal-p5" tabindex="-5" role="dialog"
+                    <!-- Modal5 start -->
+                    <div class="modal fade" id="exampleModal-p5" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModal-p5" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -850,7 +862,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-sponte-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-sponte-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -879,49 +891,8 @@
                     <!-- Modal end -->
 
                     <!-- Modal5 start -->
-                    <div class="modal fade" id="exampleModal-p5" tabindex="-5" role="dialog"
-                        aria-labelledby="exampleModal-p5" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="close-icon float-right pt-10 pr-10">
-                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
-                                        aria-label="Close">
-                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
-                                    </button>
-                                </div>
-                                <div class="modal-content border-0">
-                                    <div class="modal-body pl-50 pr-50 pt-10 pb-20">
-                                        <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-sponte-imagem
-                                                alt="product image 02">
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
-                                                <div class="content-wrapper" data-person-work-sponte-descricao>
-                                                    <h2 class="modal-title" data-person-work-sponte-nome></h2>
-                                                    
-                                                </div>
-                                            </div><!-- /col -->
-                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
-                                                <div
-                                                    class="meta-wrapper form-bg mt-60 pt-40 pb-45 pr-20 pl-45 mt-40 mb-10">
-                                                    <ul class="item-meta">
-                                                        <li data-person-work-sponte-dtfim> <span class="pl-2 openS-font-family pr-10" data-person-work-sponte-dtinicio></span>| </li>
-                                                        <li>Duração :<span class="pl-2 openS-font-family" data-person-work-sponte-duracao></span></li>
-                                                    </ul>
-                                                    <a href="#" data-person-work-sponte-url class="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2">Redirecionar</a>
-                                                </div>
-                                            </div><!-- /col -->
-                                        </div><!-- /row -->
-                                    </div><!-- /modal-body -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal end -->
-
                     <!-- Modal6 start -->
-                    <div class="modal fade" id="exampleModal-p6" tabindex="-6" role="dialog"
+                    <div class="modal fade" id="exampleModal-p6" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModal-p6" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -934,7 +905,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-codengage-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-codengage-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -963,7 +934,7 @@
                     <!-- Modal end -->
 
                     <!-- Modal7 start -->
-                    <div class="modal fade" id="exampleModal-p7" tabindex="-7" role="dialog"
+                    <div class="modal fade" id="exampleModal-p7" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModal-p7" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -976,7 +947,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-supera-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-supera-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -1005,8 +976,8 @@
                     <!-- Modal end -->
 
                     <!-- Modal8 start -->
-                    <div class="modal fade" id="exampleModal-p8" tabindex="-8" role="dialog"
-                        aria-labelledby="exampleModal-p7" aria-hidden="true">
+                    <div class="modal fade" id="exampleModal-p8" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-p8" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="close-icon float-right pt-10 pr-10">
@@ -1018,7 +989,7 @@
                                 <div class="modal-content border-0">
                                     <div class="modal-body pl-50 pr-50 pt-10 pb-20">
                                         <div class="blog-modal-img">
-                                            <img class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-gnc-imagem
+                                            <img loading="lazy" class="w-100" src="images/portfolio/port-img4-large.jpg" style="max-width: 250px;" data-person-work-gnc-imagem
                                                 alt="product image 02">
                                         </div>
                                         <div class="row">
@@ -1336,10 +1307,10 @@
                         </div><!-- /education-wrapper -->
                     </div><!-- /col -->
                     <div
-                        class="col-xl-5 offset-xl-1 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-blok d-flex align-items-center justify-content-center">
+                        class="col-xl-5 offset-xl-1 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-block d-flex align-items-center justify-content-center">
                         <div class="education-img position-relative text-center" data-aos="fade-left"
                             data-aos-duration="2000">
-                            <img class="border-radius12" src="images/education/education-img.png" alt="education image">
+                            <img loading="lazy" class="border-radius12" src="images/education/education-img.png" alt="education image">
                         </div><!-- /education-img -->
                     </div><!-- /col -->
                 </div><!-- /row -->
@@ -1613,72 +1584,72 @@
                         <ul class="brand-active  mt-70 mb-90">
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/aws.png" alt="AWS">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/aws.png" alt="AWS">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/azure.png" alt="Azure">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/azure.png" alt="Azure">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/c-sharp.png" alt="CSharp">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/c-sharp.png" alt="CSharp">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/css-3.png" alt="CSS3">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/css-3.png" alt="CSS3">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/docker.png" alt="Docker">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/docker.png" alt="Docker">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/dotnet.png" alt=".NET">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/dotnet.png" alt=".NET">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/github.png" alt="Github">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/github.png" alt="Github">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/gitlab.png" alt="Gitlab">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/gitlab.png" alt="Gitlab">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/google-cloud.png" alt="Google Cloud">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/google-cloud.png" alt="Google Cloud">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/html-5.png" alt="HTML5">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/html-5.png" alt="HTML5">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/javascript.png" alt="Javascript">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/javascript.png" alt="Javascript">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/postgre.png" alt="PostgreSQL">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/postgre.png" alt="PostgreSQL">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/typescript.png" alt="Typescript">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/typescript.png" alt="Typescript">
                                 </a>
                             </li>
                             <li class="d-inline-block position-relative over-hidden">
                                 <a class="single-brand pt-20 d-block text-center transition3" href="#">
-                                    <img class="img w15-px" src="images/icon/for-dev/visual-studio.png" alt="Visual Studio">
+                                    <img loading="lazy" class="img w15-px" src="images/icon/for-dev/visual-studio.png" alt="Visual Studio">
                                 </a>
                             </li>
                         </ul>
@@ -1735,7 +1706,7 @@
                                         <div class="contact-text">
                                             <h4 class="mb-2">Celular</h4>
                                             <p class="mb-0">
-                                                <a class="text-color primary-hover d-block" href="cel:" data-person-celular></a>
+                                                <a class="text-color primary-hover d-block" href="tel:" data-person-celular></a>
                                             </p>
                                         </div>
                                     </li><!-- /contact-email -->
@@ -1764,7 +1735,7 @@
                                         <div class="contact-text d-inline-block">
                                             <h4 class="mb-2">Whatsapp</h4>
                                             <p class="mb-0">
-                                                <a target="_blank" class="text-color primary-hover d-block"
+                                                <a target="_blank" rel="noopener noreferrer" class="text-color primary-hover d-block"
                                                     href="#" data-person-whatsapp>Conversar</a>
                                             </p>
                                         </div>
@@ -1775,7 +1746,7 @@
                         <div class="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
                             <div class="contact-wrapper">
                                 <div class="contact-form mt-45">
-                                    <form action="php/mail.php" method="POST" id="contact-form">
+                                    <form action="https://formspree.io/f/xwvzwary" method="POST" id="contact-form">
                                         <div class="contact-info pt-20">
                                             <div class="row">
                                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12"
@@ -1792,7 +1763,7 @@
                                                     data-aos-duration="2500">
                                                     <input
                                                         class="email w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
-                                                        type="email" name="inputEmail" id="inputEmail"
+                                                        type="email" name="email" id="inputEmail"
                                                         placeholder="Seu Email">
                                                     <!-- /email -->
                                                 </div><!-- /col -->
@@ -1860,12 +1831,12 @@
                         <div class="col-xl-4  col-lg-5  col-md-8  col-sm-7 col-12">
                             <div class="footer-widget footer-logo pb-40">
                                 <div class="foot-logo mb-30">
-                                    <img src="images/logo/logo.png" alt="Themes">
+                                    <img loading="lazy" src="images/logo/logo.png" alt="Themes">
                                 </div>
                                 <div class="copyright-text">
                                     <p class="mb-0">Todos os direitos reservados
                                         <a href="#" class="c-theme white-text f-600" data-person-site></a>
-                                        © 2024
+                                        © <span id="copyright-year">2024</span>
                                     </p>
                                 </div>
                             </div>
@@ -1950,32 +1921,28 @@
 
 
     <!-- ================== All js here ================ -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script defer src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script defer src="js/popper.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
     <!-- knob-js -->
-    <script src="js/jquery-appear.js"></script>
-    <script src="js/jquery-knob.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/waypoint.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/image-loaded.min.js"></script>
-    <script src="js/counterup-min.js"></script>
-    <script src="js/one-page-nav-min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/parallax.js"></script>
+    <script defer src="js/jquery-appear.js"></script>
+    <script defer src="js/jquery-knob.js"></script>
+    <script defer src="js/aos.js"></script>
+    <script defer src="js/waypoint.js"></script>
+    <script defer src="js/counterup-min.js"></script>
+    <script defer src="js/one-page-nav-min.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/parallax.js"></script>
     <!-- map js -->
-    <script src="js/leaflet.js"></script>
-    <script src="js/typer.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/vanilla-tilt.min.js"></script>
-    <script src="js/jquery.meanmenu.min.js"></script>
+    <script defer src="js/leaflet.js"></script>
+    <script defer src="js/typer.js"></script>
+    <script defer src="js/plugins.js"></script>
+    <script defer src="js/ajax-form.js"></script>
+    <script defer src="js/vanilla-tilt.min.js"></script>
+    <script defer src="js/jquery.meanmenu.min.js"></script>
 
-    <script src="person.init.js"></script>
-    <script src="js/main.js"></script>
+    <script defer src="person.init.js"></script>
+    <script defer src="js/main.js"></script>
 
 </body>
 

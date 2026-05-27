@@ -6,19 +6,17 @@
     // 1. sticky menu
     // 2. background image
     // 3. tilt js
-    // 4. mobile-menu(mean-menu)
+    // 4. mobile-menu (mean-menu)
     // 5. preloader
     // 6. One Page Nav
     // 7. mobile-menu-sidebar
-    // 8. testimonial active
-    // 9. brand active
-    // 10.blog active
-    // 11. counter js
-    // 12. Circular Bars - Knob
-    // 13. aos js
-    // 14. Isotope js
-    // 15. map js
-    // 16. Animate the scroll to top
+    // 8. brand active (slick carousel)
+    // 9. counter js (via person.init.js)
+    // 10. Circular Bars - Knob
+    // 11. aos js
+    // 12. map js (Leaflet)
+    // 13. copyright year dinâmico
+    // 14. Animate the scroll to top
     //-------------------------------------------------
 
     // 1. sticky menu
@@ -57,7 +55,7 @@
 
     // 5. preloader
     //---------------------------------------------------------------------------
-    $(window).load(function(){
+    $(window).on('load', function(){
         $('#preloader').fadeOut('slow',function(){$(this).remove();});
     });
     
@@ -92,28 +90,7 @@
 
 
 
-    // 8. testimonial active
-    //---------------------------------------------------------------------------
-    $('.testimonial-active').slick({
-        dots: true,
-        arrows: false,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '30px',
-        responsive: [
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    });
-
-
-    
-    // 9. brand active
+    // 8. brand active
    //---------------------------------------------------------------------------
     $('.brand-active').slick({
         dots: false,
@@ -157,54 +134,12 @@
 
 
 
-    // 10.blog active
-    //---------------------------------------------------------------------------
-    $('.blog-active').slick({
-        dots: false,
-        arrows: true,
-        prevArrow:'<b><i class="l-a fas fa-angle-left"></i></b>',
-        nextArrow:'<b><i class="r-a fas fa-angle-right"></i></b>',
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-    });
-
-
-
-    // 11. counter js
-    // ---------------------------------------------------------------------------
-    $('.counter').counterUp({
-        delay: 10,
-        time: 3000
-    });
+    // 9. counter js — inicializado em person.init.js após injeção dinâmica dos elementos
 
 
 
 
-    // 12. Circular Bars - Knob
+    // 10. Circular Bars - Knob
     // ---------------------------------------------------------------------------
 
      if (typeof ($.fn.knob) != 'undefined') {
@@ -266,41 +201,12 @@
 
 
 
-    // 13. aos js
+    // 11. aos js
     // ---------------------------------------------------------------------------
     AOS.init();
 
 
-    // 14. Isotope js
-    // ---------------------------------------------------------------------------
-    $('.grid').imagesLoaded( function() {
-        var grid = $('.grid').isotope({
-            itemSelector: '.grid-item',
-            percentPosition: true,
-            layoutMode: 'masonry',
-            masonry: {
-            // use outer width of grid-sizer for columnWidth
-            columnWidth: '.grid-item'
-            }
-        });
-
-        // filter items on button click
-        $('.portfolio-menu').on( 'click', 'button', function() {
-            var filterValue = $(this).attr('data-filter');
-            grid.isotope({ filter: filterValue });
-        });
-    });
-    //for menu active class
-    $('.portfolio-menu button').on('click', function(event) {
-        $(this).siblings('.active').removeClass('active');
-        $(this).addClass('active');
-        event.preventDefault();
-    });
-
-
-
-
-    // 15. map js
+    // 12. map js
     // ---------------------------------------------------------------------------
     var map = L.map('mapwrapper').setView([-25.968834, -52.563504], 14);
 
@@ -321,7 +227,13 @@
 
 
 
-    // 16. Animate the scroll to top
+    // 13. copyright year
+    // --------------------------------------------------------------------------
+    var yearEl = document.getElementById('copyright-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+
+    // 14. Animate the scroll to top
     // --------------------------------------------------------------------------
     // Show or hide the sticky footer button
     $(window).on('scroll', function() {

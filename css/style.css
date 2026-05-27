@@ -35,6 +35,7 @@
 @font-face {
   font-family: "jost-medium-font";
   src: url(../fonts/jost-medium-font/jost-medium.ttf);
+  font-display: swap;
 }
 
 /* common css */
