@@ -1,6 +1,9 @@
 (function ($) {
     "use strict";
-    
+
+    console.log('%c Eluander J. F. Lopes | Portfólio ', 'background:#21b1f4;color:#fff;padding:4px 10px;border-radius:4px;font-weight:bold;font-size:13px;');
+    console.log('%c Última atualização: 27/05/2026 — v2.0 ', 'color:#21b1f4;font-size:11px;');
+
     // JS Index
     //--------------------------------------------------
     // 1. sticky menu
